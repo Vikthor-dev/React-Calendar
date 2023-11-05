@@ -1,0 +1,18 @@
+#navbar{
+    padding: 5px;
+}
+#brand{
+    margin-left: 10px;
+    margin-right: 70px;
+    font-style: italic;
+    color: whitesmoke;
+}
+#logo{
+    height:100px;
+    width:100px;
+    animation: logo-spin infinite 10s linear
+}
+@keyframes logo-spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+  }
